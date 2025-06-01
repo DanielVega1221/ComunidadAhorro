@@ -1,0 +1,36 @@
+body {
+  background-color: #e3f2fd !important; /* azul claro */
+}
+
+.ventas-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.venta-card {
+  background-color: white;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.venta-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.cuotas-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+}
+
+.card-body p {
+  margin: 0.3rem 0;
+}
