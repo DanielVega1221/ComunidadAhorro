@@ -1,0 +1,8 @@
+back:
+controllers: cliente.js
+midelwares: validarJWTCliente.js
+rutes: cliente.js, cambios en RegVentas.js
+cambios en index.js
+
+front:clienteLogin (carpeta)
+rutas.jsx
